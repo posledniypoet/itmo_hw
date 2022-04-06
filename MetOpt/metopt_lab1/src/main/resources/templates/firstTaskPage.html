@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>MetOpt Lab 1</title>
+    <link th:rel="stylesheet" th:href="@{/css/normalize.css}">
+    <link th:rel="stylesheet" th:href="@{/css/style.css}">
+    <script th:src="@{/js/firstTaskScript.js}"></script>
+    <script th:src="@{/js/Chart.min.js}"></script>
+    <script th:src="@{/js/chart.js}"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="form" align="right">
+        <h1>Find minimum</h1>
+        <div class="text-form formula">
+            <label for="formula_input" id="formula_label">Function formula:</label>
+            <input class="input" type="text" id="formula_input">
+        </div>
+        <div class="text-form left">
+            <label for="l_input" id="l_label">Left:</label>
+            <input class="input" type="number" id="l_input">
+        </div>
+
+        <div class="text-form right">
+            <label for="r_input" id="r_label">Right:</label>
+            <input class="input" type="number" id="r_input">
+        </div>
+        <div class="text-form inaccuracy">
+            <label for="inaccuracy_input" id="inaccuracy_label">Inaccuracy:</label>
+            <input class="input" type="number" id="inaccuracy_input">
+        </div>
+        <div class="text-form method">
+            <label for="method_input" id="method_label">Method:</label>
+            <select class="input" id="method_input">
+                <option>DICHOTOMY</option>
+                <option>GOLDEN_RATIO</option>
+                <option>PARABOLA</option>
+                <option>FIBONACCI</option>
+                <option>BRENT</option>
+            </select>
+        </div>
+        <div class="submit-button">
+            <button type="submit" onclick="submitButton()" id="submit_button">Find min</button>
+        </div>
+        <div id="result" class="text-form result">
+
+        </div>
+    </div>
+    <div id="divChart" class="chart" align="center">
+        <canvas id="myChart"></canvas>
+    </div>
+</div>
+<div id="charts" class="charts">
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "metopt_labs",
+  "version": "1.0.0",
+  "dependencies": {
+    "react-chartjs-2": "^2.11.1"
+  }
+}

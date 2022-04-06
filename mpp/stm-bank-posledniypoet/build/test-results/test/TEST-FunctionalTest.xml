@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FunctionalTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-01-23T16:19:45" hostname="DESKTOP-VJ5T28U" time="0.099">
+  <properties/>
+  <testcase name="testTotalAmount" classname="FunctionalTest" time="0.091"/>
+  <testcase name="testEmptyBank" classname="FunctionalTest" time="0.0"/>
+  <testcase name="testWithdraw" classname="FunctionalTest" time="0.002"/>
+  <testcase name="testDeposit" classname="FunctionalTest" time="0.0"/>
+  <testcase name="testTransfer" classname="FunctionalTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
