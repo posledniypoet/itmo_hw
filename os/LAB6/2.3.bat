@@ -1,0 +1,1 @@
+SCHTASKS /create /tn "lab6_copy"  /tr  "C:\lab6\2.2.bat" /sc ONCE /st 20:51

@@ -1,0 +1,3 @@
+mem >mem.txt
+ver >ver.txt
+chkdsk >chkdisk.txt

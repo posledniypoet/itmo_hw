@@ -1,0 +1,1 @@
+sc query type=service > %1

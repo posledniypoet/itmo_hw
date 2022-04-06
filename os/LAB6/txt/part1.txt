@@ -1,0 +1,14 @@
+mkdir C:\lab6
+cd C:\lab6
+wmic os get caption, version > version.txt
+wmic computersystem get totalphysicalmemory > memory.txt
+wmic os get freephysicalmemory >> memory.txt
+wmic logicaldisk list brief > disks.txt
+..............................................
+xcopy *.txt TEST /I /Y
+cd C:\lab6\TEST
+copy *.txt all.txt /Y
+.................
+del version.txt
+del memory.txt
+del disks.txt

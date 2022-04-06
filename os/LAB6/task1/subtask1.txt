@@ -1,0 +1,2 @@
+mkdir c:\lab6
+cd c:\lab6
