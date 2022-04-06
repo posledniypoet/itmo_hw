@@ -1,0 +1,412 @@
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.1740] NetworkManager (version 1.22.10) is starting... (for the first time)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.1741] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.1997] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.2307] manager[0x563acff6c020]: monitoring kernel firmware directory '/lib/firmware'.
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.2308] monitoring ifupdown state file '/run/network/ifstate'.
+Oct 17 04:51:48 alexander-Aspire-A315-41 ModemManager[997]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.5191] hostname: hostname: using hostnamed
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.5191] hostname: hostname changed from (none) to "alexander-Aspire-A315-41"
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.5194] dns-mgr[0x563acff50290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.5208] rfkill3: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:01.7/0000:02:00.0/ieee80211/phy0/rfkill3) (driver ath10k_pci)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.5212] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/platform/acer-wmi/rfkill/rfkill1) (platform driver acer-wmi)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.5858] manager[0x563acff6c020]: rfkill: Wi-Fi hardware radio set enabled
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.5860] manager[0x563acff6c020]: rfkill: WWAN hardware radio set enabled
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.5968] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.5994] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6074] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6132] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6156] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6161] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6163] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6165] manager: Networking is enabled by state file
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6166] dhcp-init: Using DHCP client 'internal'
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6230] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6231] settings: Loaded settings plugin: keyfile (internal)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6231] ifupdown: management mode: unmanaged
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6418] device (lo): carrier: link connected
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6425] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6493] manager: (enp1s0f1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6551] settings: (enp1s0f1): created default wired connection 'Проводное соединение 1'
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.6566] device (enp1s0f1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.8026] device (wlp2s0): driver supports Access Point (AP) mode
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.8032] manager: (wlp2s0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Oct 17 04:51:48 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899508.8094] device (wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 17 04:51:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899509.2025] modem-manager: ModemManager available
+Oct 17 04:51:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899509.2074] supplicant: wpa_supplicant running
+Oct 17 04:51:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899509.2074] device (wlp2s0): supplicant interface state: init -> starting
+Oct 17 04:51:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899509.3313] sup-iface[0x563acff7a120,wlp2s0]: supports 5 scan SSIDs
+Oct 17 04:51:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899509.3330] device (wlp2s0): supplicant interface state: starting -> ready
+Oct 17 04:51:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899509.3331] Wi-Fi P2P device controlled by interface wlp2s0 created
+Oct 17 04:51:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899509.3335] manager: (p2p-dev-wlp2s0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/4)
+Oct 17 04:51:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899509.3340] device (p2p-dev-wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 17 04:51:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899509.3409] device (p2p-dev-wlp2s0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 17 04:51:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899509.3422] device (wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Oct 17 04:51:51 alexander-Aspire-A315-41 ModemManager[997]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:01.6/0000:01:00.1': not supported by any plugin
+Oct 17 04:51:51 alexander-Aspire-A315-41 ModemManager[997]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:01.7/0000:02:00.0': not supported by any plugin
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.0813] agent-manager: agent[5618da6233035d99,:1.40/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9002] policy: auto-activating connection 'TP-Link_0DF3_5G' (1ffa4bfd-fd12-44eb-93f8-e77e6e8c4ad1)
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9077] device (wlp2s0): Activation: starting connection 'TP-Link_0DF3_5G' (1ffa4bfd-fd12-44eb-93f8-e77e6e8c4ad1)
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9080] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9100] manager: NetworkManager state is now CONNECTING
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9145] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9165] device (wlp2s0): Activation: (wifi) access point 'TP-Link_0DF3_5G' has security, but secrets are required.
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9165] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9170] sup-iface[0x563acff7a120,wlp2s0]: wps: type pbc start...
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9510] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9525] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9545] device (wlp2s0): Activation: (wifi) connection 'TP-Link_0DF3_5G' has security, and secrets exist.  No new secrets needed.
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9549] Config: added 'ssid' value 'TP-Link_0DF3_5G'
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9550] Config: added 'scan_ssid' value '1'
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9552] Config: added 'bgscan' value 'simple:30:-70:86400'
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9553] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9555] Config: added 'auth_alg' value 'OPEN'
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9556] Config: added 'psk' value '<hidden>'
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9980] device (wlp2s0): supplicant interface state: ready -> authenticating
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9981] device (p2p-dev-wlp2s0): supplicant management interface state: ready -> authenticating
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9992] device (wlp2s0): supplicant interface state: authenticating -> associating
+Oct 17 04:51:53 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899513.9993] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.0158] device (wlp2s0): supplicant interface state: associating -> associated
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.0158] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> associated
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.3857] device (wlp2s0): supplicant interface state: associated -> completed
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.3857] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "TP-Link_0DF3_5G"
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.3858] device (p2p-dev-wlp2s0): supplicant management interface state: associated -> completed
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.3860] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.3868] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4226] dhcp4 (wlp2s0): option dhcp_lease_time      => '7200'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4226] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.0.1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4226] dhcp4 (wlp2s0): option expiry               => '1602906714'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4227] dhcp4 (wlp2s0): option ip_address           => '192.168.0.105'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4227] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4227] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4227] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4227] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4227] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4227] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4227] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4227] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option requested_routers    => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option routers              => '192.168.0.1'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4228] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4229] dhcp4 (wlp2s0): state changed unknown -> bound
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4245] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4302] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4307] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4316] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4383] manager: NetworkManager state is now CONNECTED_SITE
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4385] policy: set 'TP-Link_0DF3_5G' (wlp2s0) as default for IPv4 routing and DNS
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.4397] device (wlp2s0): Activation: successful, device activated.
+Oct 17 04:51:54 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899514.8008] manager: startup complete
+Oct 17 04:51:55 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899515.7163] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 17 04:52:11 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899531.1352] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Oct 17 04:52:11 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899531.1353] device (enp1s0f1): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Oct 17 04:52:11 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899531.1576] device (p2p-dev-wlp2s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Oct 17 04:52:11 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602899531.1583] manager: NetworkManager state is now ASLEEP
+Oct 17 12:59:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928789.5243] dhcp4 (wlp2s0): state changed bound -> expire
+Oct 17 12:59:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928789.5244] device (wlp2s0): DHCPv4: trying to acquire a new lease within 90 seconds
+Oct 17 12:59:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928789.5540] device (wlp2s0): supplicant interface state: completed -> disconnected
+Oct 17 12:59:49 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928789.6315] device (wlp2s0): supplicant interface state: disconnected -> scanning
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.4655] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.4657] device (wlp2s0): state change: activated -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.4812] dhcp4 (wlp2s0): canceled DHCP transaction
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.4812] dhcp4 (wlp2s0): state changed expire -> done
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.4830] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.4959] manager: NetworkManager state is now DISCONNECTED
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.4974] device (enp1s0f1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.6184] device (wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.6293] device (p2p-dev-wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.8059] sup-iface[0x563acff7a210,wlp2s0]: supports 5 scan SSIDs
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.8069] device (wlp2s0): supplicant interface state: starting -> ready
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.8070] device (p2p-dev-wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Oct 17 12:59:51 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928791.8076] device (wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Oct 17 12:59:54 alexander-Aspire-A315-41 ModemManager[997]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:01.6/0000:01:00.1': not supported by any plugin
+Oct 17 12:59:54 alexander-Aspire-A315-41 ModemManager[997]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:01.7/0000:02:00.0': not supported by any plugin
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3530] policy: auto-activating connection 'TP-Link_0DF3_5G' (1ffa4bfd-fd12-44eb-93f8-e77e6e8c4ad1)
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3537] device (wlp2s0): Activation: starting connection 'TP-Link_0DF3_5G' (1ffa4bfd-fd12-44eb-93f8-e77e6e8c4ad1)
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3538] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3543] manager: NetworkManager state is now CONNECTING
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3548] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3554] device (wlp2s0): Activation: (wifi) access point 'TP-Link_0DF3_5G' has security, but secrets are required.
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3555] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3559] sup-iface[0x563acff7a210,wlp2s0]: wps: type pbc start...
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3590] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3597] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3603] device (wlp2s0): Activation: (wifi) connection 'TP-Link_0DF3_5G' has security, and secrets exist.  No new secrets needed.
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3605] Config: added 'ssid' value 'TP-Link_0DF3_5G'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3605] Config: added 'scan_ssid' value '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3605] Config: added 'bgscan' value 'simple:30:-70:86400'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3605] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3605] Config: added 'auth_alg' value 'OPEN'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.3605] Config: added 'psk' value '<hidden>'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.4058] device (wlp2s0): supplicant interface state: ready -> authenticating
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.4058] device (p2p-dev-wlp2s0): supplicant management interface state: ready -> authenticating
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.4068] device (wlp2s0): supplicant interface state: authenticating -> associating
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.4068] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.4242] device (wlp2s0): supplicant interface state: associating -> associated
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.4243] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> associated
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6234] device (wlp2s0): supplicant interface state: associated -> completed
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6235] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "TP-Link_0DF3_5G"
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6235] device (p2p-dev-wlp2s0): supplicant management interface state: associated -> completed
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6238] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6252] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6568] dhcp4 (wlp2s0): option dhcp_lease_time      => '7200'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6568] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.0.1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6568] dhcp4 (wlp2s0): option expiry               => '1602935996'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6568] dhcp4 (wlp2s0): option ip_address           => '192.168.0.105'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6568] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6568] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6569] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6569] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6569] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6569] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6569] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6569] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6569] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6569] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6570] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6570] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6570] dhcp4 (wlp2s0): option requested_routers    => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6570] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6570] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6570] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6570] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6570] dhcp4 (wlp2s0): option routers              => '192.168.0.1'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6571] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6571] dhcp4 (wlp2s0): state changed unknown -> bound
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6615] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6677] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6680] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6685] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6703] manager: NetworkManager state is now CONNECTED_SITE
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6705] policy: set 'TP-Link_0DF3_5G' (wlp2s0) as default for IPv4 routing and DNS
+Oct 17 12:59:56 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928796.6724] device (wlp2s0): Activation: successful, device activated.
+Oct 17 12:59:57 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602928797.5231] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 17 13:05:17 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602929117.1877] manager: NetworkManager state is now CONNECTED_SITE
+Oct 17 13:05:17 alexander-Aspire-A315-41 NetworkManager[893]: <info>  [1602929117.5882] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 17 13:06:07 alexander-Aspire-A315-41 ModemManager[997]: <info>  Caught signal, shutting down...
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.2293] NetworkManager (version 1.22.10) is starting... (for the first time)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.2295] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.2943] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.3155] manager[0x5625b05ca020]: monitoring kernel firmware directory '/lib/firmware'.
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.3155] monitoring ifupdown state file '/run/network/ifstate'.
+Oct 21 02:11:57 alexander-Aspire-A315-41 ModemManager[1048]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.7534] hostname: hostname: using hostnamed
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.7534] hostname: hostname changed from (none) to "alexander-Aspire-A315-41"
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.7539] dns-mgr[0x5625b05ae290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.7556] rfkill3: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:01.7/0000:02:00.0/ieee80211/phy0/rfkill3) (driver ath10k_pci)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.7560] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/platform/acer-wmi/rfkill/rfkill1) (platform driver acer-wmi)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8263] manager[0x5625b05ca020]: rfkill: Wi-Fi hardware radio set enabled
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8264] manager[0x5625b05ca020]: rfkill: WWAN hardware radio set enabled
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8342] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8355] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8417] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8457] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8591] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8597] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8600] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8604] manager: Networking is enabled by state file
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8607] dhcp-init: Using DHCP client 'internal'
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8647] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8648] settings: Loaded settings plugin: keyfile (internal)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8649] ifupdown: management mode: unmanaged
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8991] device (lo): carrier: link connected
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.8997] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.9070] manager: (enp1s0f1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.9115] settings: (enp1s0f1): created default wired connection 'Проводное соединение 1'
+Oct 21 02:11:57 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235517.9127] device (enp1s0f1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.0463] device (wlp2s0): driver supports Access Point (AP) mode
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.0477] manager: (wlp2s0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.0515] device (wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.4093] modem-manager: ModemManager available
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.4145] supplicant: wpa_supplicant running
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.4146] device (wlp2s0): supplicant interface state: init -> starting
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.5634] sup-iface[0x5625b05d5920,wlp2s0]: supports 5 scan SSIDs
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.5661] device (wlp2s0): supplicant interface state: starting -> ready
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.5663] Wi-Fi P2P device controlled by interface wlp2s0 created
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.5668] manager: (p2p-dev-wlp2s0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/4)
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.5674] device (p2p-dev-wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.5711] device (p2p-dev-wlp2s0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 21 02:11:58 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235518.5729] device (wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Oct 21 02:12:00 alexander-Aspire-A315-41 ModemManager[1048]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:01.6/0000:01:00.1': not supported by any plugin
+Oct 21 02:12:00 alexander-Aspire-A315-41 ModemManager[1048]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:01.7/0000:02:00.0': not supported by any plugin
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1466] policy: auto-activating connection 'TP-Link_0DF3_5G' (1ffa4bfd-fd12-44eb-93f8-e77e6e8c4ad1)
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1487] device (wlp2s0): Activation: starting connection 'TP-Link_0DF3_5G' (1ffa4bfd-fd12-44eb-93f8-e77e6e8c4ad1)
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1494] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1511] manager: NetworkManager state is now CONNECTING
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1535] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1547] device (wlp2s0): Activation: (wifi) access point 'TP-Link_0DF3_5G' has security, but secrets are required.
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1561] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1571] sup-iface[0x5625b05d5920,wlp2s0]: wps: type pbc start...
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1643] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1658] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1670] device (wlp2s0): Activation: (wifi) connection 'TP-Link_0DF3_5G' has security, and secrets exist.  No new secrets needed.
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1675] Config: added 'ssid' value 'TP-Link_0DF3_5G'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1677] Config: added 'scan_ssid' value '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1678] Config: added 'bgscan' value 'simple:30:-70:86400'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1683] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1685] Config: added 'auth_alg' value 'OPEN'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.1686] Config: added 'psk' value '<hidden>'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.2325] device (wlp2s0): supplicant interface state: ready -> authenticating
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.2326] device (p2p-dev-wlp2s0): supplicant management interface state: ready -> authenticating
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.2329] device (wlp2s0): supplicant interface state: authenticating -> associating
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.2329] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.2516] device (wlp2s0): supplicant interface state: associating -> associated
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.2516] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> associated
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6048] device (wlp2s0): supplicant interface state: associated -> completed
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6049] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "TP-Link_0DF3_5G"
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6049] device (p2p-dev-wlp2s0): supplicant management interface state: associated -> completed
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6065] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6085] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6593] dhcp4 (wlp2s0): option dhcp_lease_time      => '7200'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6593] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.0.1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6594] dhcp4 (wlp2s0): option expiry               => '1603242723'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6594] dhcp4 (wlp2s0): option ip_address           => '192.168.0.105'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6594] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6594] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6594] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6594] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6595] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6595] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6595] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6595] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6595] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6595] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6595] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6596] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6596] dhcp4 (wlp2s0): option requested_routers    => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6596] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6596] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6596] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6596] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6596] dhcp4 (wlp2s0): option routers              => '192.168.0.1'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6596] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6597] dhcp4 (wlp2s0): state changed unknown -> bound
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6716] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6823] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6872] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.6903] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.7076] manager: NetworkManager state is now CONNECTED_SITE
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.7110] policy: set 'TP-Link_0DF3_5G' (wlp2s0) as default for IPv4 routing and DNS
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.7158] device (wlp2s0): Activation: successful, device activated.
+Oct 21 02:12:03 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235523.9428] agent-manager: agent[5d4a3d18784dc797,:1.40/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Oct 21 02:12:04 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235524.0440] manager: startup complete
+Oct 21 02:12:05 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603235525.8723] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 20 23:24:36 alexander-Aspire-A315-41 ModemManager[1048]: <info>  Caught signal, shutting down...
+Oct 20 23:24:36 alexander-Aspire-A315-41 NetworkManager[939]: <info>  [1603225476.0231] modem-manager: ModemManager no longer available
+Oct 20 23:24:36 alexander-Aspire-A315-41 ModemManager[1048]: <info>  ModemManager is shut down
+Oct 21 00:29:09 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229349.8314] NetworkManager (version 1.22.10) is starting... (for the first time)
+Oct 21 00:29:09 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229349.8315] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Oct 21 00:29:09 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229349.8882] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Oct 21 00:29:09 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229349.9061] manager[0x5637a93eb040]: monitoring kernel firmware directory '/lib/firmware'.
+Oct 21 00:29:09 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229349.9062] monitoring ifupdown state file '/run/network/ifstate'.
+Oct 21 00:29:09 alexander-Aspire-A315-41 ModemManager[997]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.2218] hostname: hostname: using hostnamed
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.2219] hostname: hostname changed from (none) to "alexander-Aspire-A315-41"
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.2223] dns-mgr[0x5637a93d3290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.2239] rfkill3: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:01.7/0000:02:00.0/ieee80211/phy0/rfkill3) (driver ath10k_pci)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.2244] rfkill0: found Wi-Fi radio killswitch (at /sys/devices/platform/acer-wmi/rfkill/rfkill0) (platform driver acer-wmi)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.2783] manager[0x5637a93eb040]: rfkill: Wi-Fi hardware radio set enabled
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.2784] manager[0x5637a93eb040]: rfkill: WWAN hardware radio set enabled
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.2930] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.2938] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3061] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3088] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3110] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3114] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3115] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3116] manager: Networking is enabled by state file
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3118] dhcp-init: Using DHCP client 'internal'
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3192] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3193] settings: Loaded settings plugin: keyfile (internal)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3193] ifupdown: management mode: unmanaged
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3325] device (lo): carrier: link connected
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3329] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3341] manager: (enp1s0f1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3368] settings: (enp1s0f1): created default wired connection 'Проводное соединение 1'
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.3384] device (enp1s0f1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.4760] device (wlp2s0): driver supports Access Point (AP) mode
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.4766] manager: (wlp2s0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.4786] device (wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.8639] supplicant: wpa_supplicant running
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.8640] device (wlp2s0): supplicant interface state: init -> starting
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.8642] modem-manager: ModemManager available
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.9524] sup-iface[0x5637a93fe920,wlp2s0]: supports 5 scan SSIDs
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.9539] device (wlp2s0): supplicant interface state: starting -> ready
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.9543] Wi-Fi P2P device controlled by interface wlp2s0 created
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.9550] manager: (p2p-dev-wlp2s0): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/4)
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.9588] device (p2p-dev-wlp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.9676] device (p2p-dev-wlp2s0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Oct 21 00:29:10 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229350.9715] device (wlp2s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Oct 21 00:29:12 alexander-Aspire-A315-41 ModemManager[997]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:01.6/0000:01:00.1': not supported by any plugin
+Oct 21 00:29:12 alexander-Aspire-A315-41 ModemManager[997]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:01.7/0000:02:00.0': not supported by any plugin
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.2246] agent-manager: agent[8afbc9692fcb0649,:1.40/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5508] policy: auto-activating connection 'TP-Link_0DF3_5G' (1ffa4bfd-fd12-44eb-93f8-e77e6e8c4ad1)
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5533] device (wlp2s0): Activation: starting connection 'TP-Link_0DF3_5G' (1ffa4bfd-fd12-44eb-93f8-e77e6e8c4ad1)
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5538] device (wlp2s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5585] manager: NetworkManager state is now CONNECTING
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5598] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5643] device (wlp2s0): Activation: (wifi) access point 'TP-Link_0DF3_5G' has security, but secrets are required.
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5645] device (wlp2s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5706] sup-iface[0x5637a93fe920,wlp2s0]: wps: type pbc start...
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5745] device (wlp2s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5751] device (wlp2s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5755] device (wlp2s0): Activation: (wifi) connection 'TP-Link_0DF3_5G' has security, and secrets exist.  No new secrets needed.
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5756] Config: added 'ssid' value 'TP-Link_0DF3_5G'
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5756] Config: added 'scan_ssid' value '1'
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5756] Config: added 'bgscan' value 'simple:30:-70:86400'
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5756] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5757] Config: added 'auth_alg' value 'OPEN'
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.5757] Config: added 'psk' value '<hidden>'
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.6424] device (wlp2s0): supplicant interface state: ready -> authenticating
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.6425] device (p2p-dev-wlp2s0): supplicant management interface state: ready -> authenticating
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.6439] device (wlp2s0): supplicant interface state: authenticating -> associating
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.6439] device (p2p-dev-wlp2s0): supplicant management interface state: authenticating -> associating
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.6604] device (wlp2s0): supplicant interface state: associating -> associated
+Oct 21 00:29:15 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229355.6605] device (p2p-dev-wlp2s0): supplicant management interface state: associating -> associated
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0586] device (wlp2s0): supplicant interface state: associated -> completed
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0586] device (wlp2s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "TP-Link_0DF3_5G"
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0587] device (p2p-dev-wlp2s0): supplicant management interface state: associated -> completed
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0589] device (wlp2s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0598] dhcp4 (wlp2s0): activation: beginning transaction (timeout in 45 seconds)
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0935] dhcp4 (wlp2s0): option dhcp_lease_time      => '7200'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0936] dhcp4 (wlp2s0): option domain_name_servers  => '192.168.0.1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0936] dhcp4 (wlp2s0): option expiry               => '1603236556'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0936] dhcp4 (wlp2s0): option ip_address           => '192.168.0.105'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0936] dhcp4 (wlp2s0): option requested_broadcast_address => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0936] dhcp4 (wlp2s0): option requested_domain_name => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0936] dhcp4 (wlp2s0): option requested_domain_name_servers => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0936] dhcp4 (wlp2s0): option requested_domain_search => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0937] dhcp4 (wlp2s0): option requested_host_name  => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0937] dhcp4 (wlp2s0): option requested_interface_mtu => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0937] dhcp4 (wlp2s0): option requested_ms_classless_static_routes => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0937] dhcp4 (wlp2s0): option requested_nis_domain => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0937] dhcp4 (wlp2s0): option requested_nis_servers => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0937] dhcp4 (wlp2s0): option requested_ntp_servers => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0937] dhcp4 (wlp2s0): option requested_rfc3442_classless_static_routes => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0938] dhcp4 (wlp2s0): option requested_root_path  => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0938] dhcp4 (wlp2s0): option requested_routers    => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0938] dhcp4 (wlp2s0): option requested_static_routes => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0938] dhcp4 (wlp2s0): option requested_subnet_mask => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0938] dhcp4 (wlp2s0): option requested_time_offset => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0938] dhcp4 (wlp2s0): option requested_wpad       => '1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0938] dhcp4 (wlp2s0): option routers              => '192.168.0.1'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0938] dhcp4 (wlp2s0): option subnet_mask          => '255.255.255.0'
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0938] dhcp4 (wlp2s0): state changed unknown -> bound
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.0957] device (wlp2s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.1024] device (wlp2s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.1034] device (wlp2s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.1047] manager: NetworkManager state is now CONNECTED_LOCAL
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.1096] manager: NetworkManager state is now CONNECTED_SITE
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.1121] policy: set 'TP-Link_0DF3_5G' (wlp2s0) as default for IPv4 routing and DNS
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.1141] device (wlp2s0): Activation: successful, device activated.
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.4709] manager: startup complete
+Oct 21 00:29:16 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603229356.4872] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 21 00:51:31 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603230691.9714] agent-manager: agent[a3ac3af7e3f81850,:1.40/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Oct 21 00:59:53 alexander-Aspire-A315-41 NetworkManager[900]: <info>  [1603231193.6733] agent-manager: agent[e02ad4b20934ac4d,:1.40/org.gnome.Shell.NetworkAgent/1000]: agent registered

@@ -1,0 +1,95 @@
+Total process count: 94
+1057:/lib/systemd/systemd --user
+1058:(sd-pam)
+1090:/usr/bin/pulseaudio --daemonize=no --log-target=journal
+1092:/usr/libexec/tracker-miner-fs
+1097:/usr/bin/gnome-keyring-daemon --daemonize --login
+1099:/usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+1106:/usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+1108:/usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+1111:/usr/libexec/gvfsd
+1117:/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+1129:/usr/libexec/gvfs-udisks2-volume-monitor
+1151:/usr/libexec/gvfs-mtp-volume-monitor
+1160:/usr/libexec/gvfs-gphoto2-volume-monitor
+1164:/usr/libexec/gvfs-afc-volume-monitor
+1169:/usr/libexec/gvfs-goa-volume-monitor
+1174:/usr/libexec/goa-daemon
+1208:/usr/libexec/goa-identity-service
+1277:/usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+1360:/usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+1389:/usr/libexec/at-spi-bus-launcher
+1394:/usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+1409:/usr/libexec/gnome-session-ctl --monitor
+1416:/usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+1431:/usr/bin/gnome-shell
+1471:/usr/libexec/at-spi2-registryd --use-gnome-session
+1475:ibus-daemon --panel disable --xim
+1479:/usr/libexec/ibus-memconf
+1480:/usr/libexec/ibus-extension-gtk3
+1484:/usr/libexec/ibus-x11 --kill-daemon
+1487:/usr/libexec/ibus-portal
+1496:/usr/libexec/xdg-permission-store
+1498:/usr/libexec/gnome-shell-calendar-server
+1507:/usr/libexec/evolution-source-registry
+1515:/usr/libexec/dconf-service
+1518:/usr/libexec/gvfsd-metadata
+1527:/usr/libexec/evolution-calendar-factory
+1547:/usr/libexec/evolution-addressbook-factory
+1570:/usr/bin/nautilus --gapplication-service
+1572:/usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+1580:/usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+1591:/usr/libexec/gsd-a11y-settings
+1592:/usr/libexec/gsd-color
+1594:/usr/libexec/gsd-datetime
+1595:/usr/libexec/gsd-housekeeping
+1599:/usr/libexec/gsd-keyboard
+1601:/usr/libexec/gsd-media-keys
+1602:/usr/libexec/gsd-power
+1605:/usr/libexec/gsd-print-notifications
+1606:/usr/libexec/gsd-rfkill
+1608:/usr/libexec/gsd-screensaver-proxy
+1615:/usr/libexec/gsd-sharing
+1617:/usr/libexec/gsd-smartcard
+1622:/usr/libexec/gsd-sound
+1623:/usr/libexec/gsd-usb-protection
+1627:/usr/libexec/gsd-wacom
+1629:/usr/libexec/gsd-wwan
+1631:/usr/libexec/gsd-xsettings
+1664:/usr/libexec/evolution-data-server/evolution-alarm-notify
+1674:/usr/libexec/gsd-disk-utility-notify
+1685:/usr/libexec/gsd-printer
+1700:/usr/libexec/ibus-engine-simple
+1868:/usr/bin/gedit --gapplication-service
+1948:update-notifier
+2224:/usr/bin/deja-dup --gapplication-service
+2617:/usr/libexec/gvfsd-http --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+2954:/usr/libexec/gnome-terminal-server
+2962:bash
+2976:/usr/bin/gpg-agent --supervised
+3050:telegram-desktop --
+3069:/usr/libexec/xdg-document-portal
+3253:/usr/lib/libreoffice/program/oosplash --draw
+3270:/usr/lib/libreoffice/program/soffice.bin --draw
+3405:bash
+3848:/opt/google/chrome/chrome
+3854:cat
+3855:cat
+3858:/opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb,
+3859:/opt/google/chrome/chrome --type=zygote --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb,
+3860:/opt/google/chrome/nacl_helper
+3863:/opt/google/chrome/chrome --type=zygote --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb,
+3884:/opt/google/chrome/chrome --type=gpu-process --field-trial-handle=2902692115302038355,12407450843611088550,131072 --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb, --gpu-preferences=MAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA= --shared-files
+3886:/opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=2902692115302038355,12407450843611088550,131072 --lang=ru --service-sandbox-type=network --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb, --shared-files
+3919:/opt/google/chrome/chrome --type=renderer --field-trial-handle=2902692115302038355,12407450843611088550,131072 --lang=ru --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb, --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=9 --no-v8-untrusted-code-mitigations --shared-files
+3920:/opt/google/chrome/chrome --type=renderer --field-trial-handle=2902692115302038355,12407450843611088550,131072 --lang=ru --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb, --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files
+3964:/opt/google/chrome/chrome --type=renderer --field-trial-handle=2902692115302038355,12407450843611088550,131072 --lang=ru --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb, --extension-process --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files
+3982:/opt/google/chrome/chrome --type=renderer --field-trial-handle=2902692115302038355,12407450843611088550,131072 --lang=ru --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb, --extension-process --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files
+3989:/opt/google/chrome/chrome --type=renderer --field-trial-handle=2902692115302038355,12407450843611088550,131072 --lang=ru --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb, --extension-process --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files
+4043:/opt/google/chrome/chrome --type=renderer --field-trial-handle=2902692115302038355,12407450843611088550,131072 --lang=ru --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb, --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=11 --no-v8-untrusted-code-mitigations --shared-files
+4079:/opt/google/chrome/chrome --type=renderer --field-trial-handle=2902692115302038355,12407450843611088550,131072 --lang=ru --enable-crash-reporter=322471b1-805e-4450-ae8a-172868b68ddb, --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=14 --no-v8-untrusted-code-mitigations --shared-files
+4798:/bin/bash ./script1.sh
+4799:/bin/bash ./script1.sh
+4800:ps -U alexander -o pid,command
+4801:tail -n +2
+4802:sed -r s/\s*([^ ]+)\s(.*)/\1:\2/

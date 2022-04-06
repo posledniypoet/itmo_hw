@@ -1,0 +1,11 @@
+Out of memory: Killed process 6604 (bash) total-vm:7723580kB, anon-rss:6494324kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:15140kB oom_score_adj:0
+кузщкеюдщп-98000000
+Out of memory: Killed process 6604 (bash) total-vm:7723580kB, anon-rss:6494324kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:15140kB oom_score_adj:0
+кузщкеюдщп-9800000
+....................................
+reporgt2.log----49000000
+Killed process 2506 (bash) total-vm:4129088kB, anon-rss:3319904kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:8124kB oom_score_adj:0
+report1.log --- 49000000
+report1x.log --- 103000000
+Killed process 2505 (bash) total-vm:8091068kB, anon-rss:6457136kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:15868kB oom_score_adj:0
+
